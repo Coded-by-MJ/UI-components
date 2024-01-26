@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="MJ">
+
+    <title>Responsive Form</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Poppins|Open+Sans|Oswald">
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="https://kit.fontawesome.com/18758ff323.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+     <div class="row">
+       <div class="contact-form">
+        <form method="post" class="needs-validation" novalidate>
+            <div class="row">
+               <div class="screen-md-6">
+                <label for="firstName">Enter Your First Name</label>
+                <input type="text" class="form-element" id="firstName" placeholder="First Name" required>
+               </div>
+               <div class="screen-md-6">
+                <label for="lastName">Enter Your Last Name</label>
+                <input type="text" class="form-element" id="lastName" placeholder="Last Name" required>
+               </div>
+            </div>
+             <div class="row">
+                <div class="screen-md-6">
+                 <label  for="email">Enter Your Email*</label>
+                 <input type="email" class="form-element" id="email" placeholder="Email" required>
+                </div>
+                <div class="screen-md-6">
+                <label  for="phone">Enter Your Phone</label>
+                 <input type="tel" class="form-element" id="phone" placeholder="Phone">
+                </div>
+             </div>
+              <div class="row">
+                  <div>
+                    <label for="message">Enter Your Message</label>
+                    <textarea rows="7" class="form-element"  id="message" placeholder="Message" required></textarea>
+                  </div>
+              </div>
+               <div class="row">
+                <div class="submit-area">
+                  <button type="button" id="submitBtn">Submit<i class="fa-solid fa-angles-right"></i></button>
+                    <span id="submit-text">Thanks for Submitting!</span>
+               </div>
+              </div>
+         </form>
+
+       </div>
+      </div>
+    </div>
+
+
+
+    <script src="javascript.js"></script>
+
+</body>
+
+
+</html>

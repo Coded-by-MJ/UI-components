@@ -21,7 +21,7 @@ Just navigate to the folder with your chosen example and open html file in the b
 The examples are posted here:
 
 
-* [Instagram](https://www.instagram.com/coded_by_mj/)
-* [Twitter](https://twitter.com/Coded_by_MJ)
+* [Instagram](https://www.instagram.com/miraclejustice_)
+* [Twitter](https://twitter.com/MiracleJustice_)
 
 
